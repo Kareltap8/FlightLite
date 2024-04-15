@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-all{
+    width: 80%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li, a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+a:hover{
+    color: #3A428E;
+}
+ul{
+    display: flex;
+}
+.title{
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3A428E;
+    text-align: center;
+}
+.img-seats{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.data1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3A428E;
+    margin-top: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+.rez2{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #e0e0f1;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    margin-top: 250px;
+    box-shadow: 0px 0px 20px #3A428E;
+}
+.rez-info{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: medium;
+}
+.rez-info p{
+    padding: 20px;
+}
+input{
+    width: 70%;
+    border-radius: 20px;
+    border: 0px;
+    padding: 10px;
+}
+
+.button{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+button, .button1{
+    width: 10%;
+    font-size: 18px;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    background-color: #3A428E;
+    border-radius: 30px;
+    padding: 12px;
+    border: 0px;
+}
+.button a{
+    margin: 0 auto;
+    color: #fff;
+}
+footer{
+    width: 100%;
+    background-color: #3A428E;
+    height: max-content;
+    padding: 100px;
+    margin-top: 200px;
+}
+footer div {
+    color: #fff;
+    font-size: 16px;
+}
+.navigate a, .phone{
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
